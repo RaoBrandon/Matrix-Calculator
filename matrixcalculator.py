@@ -1,8 +1,3 @@
-'''
-/////////CODED BY BRANDON RAO OF THE UNIVERSITY OF TORONTO SCARBOROUGH/////////
-'''
-
-
 class matrix:
     def __init__(self):
         '''Initialize the container variable'''
@@ -131,22 +126,7 @@ class matrix:
             # no match and the resultant matrix cannot be computed
             resultant_matrix = "The matrix dimensions do not match up!"
         return resultant_matrix
-    '''
-    def add(self, matrix):
-        This method will take a matrix and compute the sum of the matrix
-        with itself. This is done by simply adding the contents together for
-        every input
-        
-    
-        if self.can_add:
-            for row_num in range(0, len(self.contents)):
-                for number in range(0, len(self.contents[rownum])):
-                    print(number)
-        else:
-            print("These two matrices do not have the same dimensions, so\n" +
-                  "we cannot add them!")
-    
-    '''
+
     def __str__(self):
         '''This method returns a string representation of self.contents, it
         prints out each row individually so the user can get a good idea of
